@@ -1,0 +1,129 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Universal Box Sizing Heretat (última versió) */
+
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+
+
+/* Estils nostres */
+body {
+    background-color: #f1ead9;
+/*    height: 100vh;*/
+    overflow: hidden;
+}
+
+#pare {
+/*    display: block;*/
+    height: 100vh;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.mig-cercle {
+    position: absolute;
+    width: 500px;
+/*    height: 250px;*/
+    height: 500px;
+/*    bottom: 0px;*/
+    bottom: -250px;
+    border: 90px solid;
+/*
+    border-top-left-radius: 250px;
+    border-top-right-radius: 250px;
+    border-bottom: 0px;
+*/
+    border-radius: 250px;
+    background-color: #f1ead9;
+    transition: all 2s;
+}
+
+#color1 {
+    border-color: #ed591d;
+}
+#color2 {
+    border-color: #ec7020;
+}
+#color3 {
+    border-color: #ee8625;
+}
+#color4 {
+    border-color: #f2a12a;
+}
+#color5 {
+    border-color: #f3b930;
+}
+#color6 {
+    border-color: #f6d437;
+}
+
+#titol {
+    position: absolute;
+    bottom: 275px;
+    left: calc(50vw - 210px);
+    font-family: Ultra, 'Helvetica', sans-serif;
+    font-size: 28px;
+    font-size: 2.8rem;
+    line-height: 22px;
+    line-height: 2.2rem;
+    font-weight: 600;
+    transition: all 3s;
+    opacity: 0;
+    cursor: default;
+}
