@@ -4,24 +4,14 @@ function desplega() {
     let panell3 = document.getElementById("color3");
     let panell4 = document.getElementById("color4");
     let panell5 = document.getElementById("color5");
-    //    let panell6 = document.getElementById("color6");
 
-    //    let espai = 90;
-    //    panell1.style.bottom = espai*5+"px";
-    //    panell2.style.bottom = espai*4+"px";
-    //    panell3.style.bottom = espai*3+"px";
-    //    panell4.style.bottom = espai*2+"px";
-    //    panell5.style.bottom = espai+"px";
-    ////    panell6.style.bottom = "000px";
-    //    
     let espai = 100;
     panell1.style.bottom = espai * 5 - 250 + "px";
     panell2.style.bottom = espai * 4 - 250 + "px";
     panell3.style.bottom = espai * 3 - 250 + "px";
     panell4.style.bottom = espai * 2 - 250 + "px";
     panell5.style.bottom = espai - 250 + "px";
-    //    panell6.style.bottom = "-250px";
-    
+     
     document.getElementById("titol").style.opacity = 1;
     document.getElementById("titol").style.bottom = "275px";
 }
@@ -32,14 +22,12 @@ function plega() {
     let panell3 = document.getElementById("color3");
     let panell4 = document.getElementById("color4");
     let panell5 = document.getElementById("color5");
-//    let panell6 = document.getElementById("color6");
 
     panell1.style.bottom = "-250px";
     panell2.style.bottom = "-250px";
     panell3.style.bottom = "-250px";
     panell4.style.bottom = "-250px";
     panell5.style.bottom = "-250px";
-    //    panell6.style.bottom = "000px";
     
     document.getElementById("titol").style.opacity = 0;
     document.getElementById("titol").style.bottom = "-250px";
