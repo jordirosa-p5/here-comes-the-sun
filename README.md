@@ -1,4 +1,4 @@
-# Here comes the sun
+# Here comes the sun  :sunny:
 Exemple de com fer interactiu un pòster que ens va ensenyar el Dani a la seva presentació.
 
 La interactivitat és bastant bàsica: treballem amb els events `mouseover` per desplegar el sol, i l'event `mouseout` per plegar-lo de nou. Hem vist a classe que podem definir respostes a events de diverses maneres, en aquest cas ho hem fet des de l'HTML. 
